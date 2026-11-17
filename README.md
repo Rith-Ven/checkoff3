@@ -173,7 +173,7 @@ rustc borrow_take.rs -o borrow_take
 ./borrow_take
 ```
 
-**Exercise 3**
+**Exercise 3**  
 C:
 
 ```
