@@ -151,8 +151,48 @@ public class Example {
 }
 ```
 
-### Running the experiment
+### Running the exercises
 
+Install Rust, a C compiler, and a JDK.  
+
+**Exercises 1 and 2** 
+```
+rustc exercise1.rs
+rustc exercise2.rs
+```
+
+These examples will first fail because both have compiler errors.  
+
+Comment out the invalid lines noted above, then compile and run again:  
+
+```sh
+rustc ownership_scope.rs -o ownership_scope
+./ownership_scope
+
+rustc borrow_take.rs -o borrow_take
+./borrow_take
+```
+
+**Exercise 3**
+C:
+
+```
+cc manual_memory.c -o manual_memory
+./manual_memory
+```
+Rust:
+
+```
+rustc box_cleanup.rs -o box_cleanup
+./box_cleanup
+```
+
+Java:
+
+```
+javac Example.java
+java Example
+```
 
 
 ## Written Reflection
